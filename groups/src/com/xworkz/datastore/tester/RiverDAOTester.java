@@ -1,6 +1,7 @@
-package com.xworkz.datastore.dao;
+package com.xworkz.datastore.tester;
 
 import com.xworkz.datastore.dto.*;
+import com.xworkz.datastore.dao.*;
 
 public class RiverDAOTester {
 

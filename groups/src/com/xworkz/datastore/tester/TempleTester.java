@@ -1,5 +1,6 @@
-package com.xworkz.datastore.dao;
+package com.xworkz.datastore.tester;
 
+import com.xworkz.datastore.dao.*;
 import java.util.Collection;
 
 import com.xworkz.datastore.dto.TempleDTO;
