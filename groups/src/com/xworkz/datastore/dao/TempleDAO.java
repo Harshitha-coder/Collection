@@ -24,13 +24,13 @@ public interface TempleDAO {
 
 	Collection<TempleDTO> findAll();
 
-	 Collection<TempleDTO> findAllTempleByLocationStartsWith(char ch);
+	Collection<TempleDTO> findAllTempleByLocationStartsWith(char ch);
 
 	Collection<TempleDTO> findAllTempleByEntryFeeGreaterThan(double cost);
 
 	Collection<TempleDTO> findAllTempleByNoOfPoojariesGreaterThan(int no);
 
-	//String findLocationByName(String name);
+	String findLocationByName(String name);
 
 	Collection<String> findAllLocations();
 

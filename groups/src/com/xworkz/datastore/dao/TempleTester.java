@@ -33,7 +33,7 @@ public class TempleTester {
 		dao.delete(removetemple5);
 		System.out.println("total size:" + dao.totalItems());
 
-		TempleDTO temp=dao.findFirstItem();
+		TempleDTO temp = dao.findFirstItem();
 		System.out.println(temp);
 		dao.findLastItem();
 
@@ -46,26 +46,22 @@ public class TempleTester {
 			System.out.println(templeDTO);
 
 		Collection<TempleDTO> loc = dao.findAllTempleByLocationStartsWith('M');
-		for (TempleDTO templeDTO : loc)
-		{
+		for (TempleDTO templeDTO : loc) {
 			System.out.println(templeDTO);
 		}
 		Collection<TempleDTO> fee = dao.findAllTempleByEntryFeeGreaterThan(50);
-		for (TempleDTO templeDTO : fee)
-		{
+		for (TempleDTO templeDTO : fee) {
 			System.out.println(templeDTO);
 		}
-		Collection<TempleDTO> poojaries=dao.findAllTempleByNoOfPoojariesGreaterThan(3);
+		Collection<TempleDTO> poojaries = dao.findAllTempleByNoOfPoojariesGreaterThan(3);
 		for (TempleDTO templeDTO : poojaries)
 			System.out.println(templeDTO);
-		 //String var=dao.findLocationByName("Iskon");
-		 //System.out.println(var);//to check whether it is returning value or not
-		Collection<String> location=dao.findAllLocations();
-		for(String value:location)
-		{
+		String var = dao.findLocationByName("Iskon");
+		System.out.println(var);// to check whether it is returning value or not
+		Collection<String> location = dao.findAllLocations();
+		for (String value : location) {
 			System.out.println(value);
 		}
-	
 
-}
+	}
 }
