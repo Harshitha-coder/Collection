@@ -30,7 +30,7 @@ public interface TempleDAO {
 
 	Collection<TempleDTO> findAllTempleByNoOfPoojariesGreaterThan(int no);
 
-	String findLocationByName(String name);
+	//String findLocationByName(String name);
 
 	Collection<String> findAllLocations();
 

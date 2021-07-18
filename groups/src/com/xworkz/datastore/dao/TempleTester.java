@@ -58,8 +58,8 @@ public class TempleTester {
 		Collection<TempleDTO> poojaries=dao.findAllTempleByNoOfPoojariesGreaterThan(3);
 		for (TempleDTO templeDTO : poojaries)
 			System.out.println(templeDTO);
-		 String var=dao.findLocationByName("Iskon");
-		 System.out.println(var);//to check whether it is returning value or not
+		 //String var=dao.findLocationByName("Iskon");
+		 //System.out.println(var);//to check whether it is returning value or not
 		Collection<String> location=dao.findAllLocations();
 		for(String value:location)
 		{

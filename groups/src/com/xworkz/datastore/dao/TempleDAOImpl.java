@@ -143,7 +143,7 @@ public class TempleDAOImpl implements TempleDAO {
 		return tempCollection;
 	}
 
-	@Override
+	/*@Override
 	public String findLocationByName(String name) {
 		Iterator<TempleDTO> itr = list.iterator();
 		while (itr.hasNext()) {
@@ -154,7 +154,7 @@ public class TempleDAOImpl implements TempleDAO {
 			}
 		}
 		return name;
-	}
+	}*/
 
 	@Override
 	public Collection<String> findAllLocations() {
