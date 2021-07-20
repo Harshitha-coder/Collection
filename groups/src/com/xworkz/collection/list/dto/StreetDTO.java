@@ -1,6 +1,8 @@
 package com.xworkz.collection.list.dto;
 
-public class StreetDTO {
+import java.io.Serializable;
+
+public class StreetDTO implements Serializable {
 	private String name;
 	private Integer pincode;
 	private String landMark;
