@@ -1,12 +1,11 @@
 package com.xworkz.datastore.tester;
 
-import java.util.ArrayList;
 import java.util.Collection;
 
 import com.xworkz.datastore.dao.HighwayDAO;
 import com.xworkz.datastore.dao.HighwayDAOImpl;
 import com.xworkz.datastore.dto.HighwayDTO;
-import com.xworkz.datastore.dto.constants.HighwayType;
+import com.xworkz.datastore.constants.HighwayType;
 
 public class HighwayTester {
 

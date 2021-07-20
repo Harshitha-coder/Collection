@@ -3,7 +3,8 @@ package com.xworkz.datastore.dao;
 import java.util.Collection;
 
 import com.xworkz.datastore.dto.HighwayDTO;
-import com.xworkz.datastore.dto.constants.HighwayType;
+
+import com.xworkz.datastore.constants.*;
 
 public interface HighwayDAO {
 

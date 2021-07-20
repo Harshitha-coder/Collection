@@ -1,8 +1,8 @@
 package com.xworkz.datastore.dto;
 
-import java.io.Serializable;
+import com.xworkz.datastore.constants.*;
 
-import com.xworkz.datastore.dto.constants.HighwayType;
+import java.io.Serializable;
 
 public class HighwayDTO implements Serializable, Comparable<HighwayDTO> {
 	private String id;
